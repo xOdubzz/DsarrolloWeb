@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dibujando en Canvas</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>Dibujando en Canvas</h1>
+    <div>
+        <canvas id="canvas"></canvas>
+    </div>
+    
+    <div class="config" id="config">
+        <input type="color" id="pickcolor">
+        <label for="linewidth" id="etiqueta">Grosor</label>
+        <input type="range" min="1" max="10" id="grosor">
+        <button id="borrar">Limpiar pizarron</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
